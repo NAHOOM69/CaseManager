@@ -1,0 +1,58 @@
+{
+  "name": "מנהל משימות משפטיות",
+  "short_name": "משימות",
+  "description": "מערכת ניהול משימות ודיונים משפטיים",
+  "categories": ["productivity", "legal", "business"],
+  "lang": "he-IL",
+  "dir": "rtl",
+  "start_url": "/cases",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+
+ "shortcuts": [
+  {
+    "name": "ניהול תיקים",
+    "url": "/cases",
+    "description": "ניהול תיקים",
+    "icons": [{ "src": "/icons/icon-144x144.png", "sizes": "144x144" }]
+  },
+  {
+    "name": "הוסף משימה",
+    "url": "/?action=new",
+    "description": "יצירת משימה חדשה",
+    "icons": [{ "src": "/icons/icon-144x144.png", "sizes": "144x144" }]
+  },
+  {
+    "name": "משימות פעילות",
+    "url": "/?tab=active",
+    "description": "הצג משימות פעילות",
+    "icons": [{ "src": "/icons/icon-144x144.png", "sizes": "144x144" }]
+  }
+],
+
+  "prefer_related_applications": false
+}
